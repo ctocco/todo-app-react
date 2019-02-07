@@ -5,7 +5,9 @@ const Navbar = props => {
   return (
     <nav className="nav-wrapper white">
       <div className="container">
-        <a className="brand-logo black-text">To Do App</a>
+        <NavLink className="brand-logo black-text" to="/todos">
+          Todo
+        </NavLink>
         <ul className="right  ">
           <li>
             <Link className="black-text" to="/">

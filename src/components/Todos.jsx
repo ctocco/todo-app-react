@@ -51,7 +51,7 @@ class Todos extends Component {
           value={this.state.search}
           onChange={this.handleUpdate}
         />
-        <h1>To Do List</h1>
+        <h1>Todo List</h1>
         <AddItem addItem={this.addItem} />
         <Todo
           todos={this.state.todos}
