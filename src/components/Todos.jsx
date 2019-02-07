@@ -6,9 +6,9 @@ import "./Todos.css";
 class Todos extends Component {
   state = {
     todos: [
-      { id: 1, task: "wash clothes" },
+      { id: 1, task: "feed the cat" },
       { id: 2, task: "phone mum" },
-      { id: 3, task: "study node.js" }
+      { id: 3, task: "study study study" }
     ],
     search: ""
   };

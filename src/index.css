@@ -12,7 +12,14 @@ ul {
   color: #373737 !important;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
+#button {
+  margin-top: 30px;
+}
+
+#header {
+  margin-top: 100px;
+}
+
+#about-title {
+  padding-top: 20px;
+}

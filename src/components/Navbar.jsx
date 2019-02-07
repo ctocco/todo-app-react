@@ -5,20 +5,20 @@ const Navbar = props => {
   return (
     <nav className="nav-wrapper white">
       <div className="container">
-        <a className="brand-logo lime-text darken-3">To Do App</a>
+        <a className="brand-logo black-text">To Do App</a>
         <ul className="right  ">
           <li>
-            <Link className="lime-text darken-1" to="/">
+            <Link className="black-text" to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link className="lime-text darken-1" to="/todos">
+            <Link className="black-text" to="/todos">
               Todos
             </Link>
           </li>
           <li>
-            <NavLink className="lime-text darken-1" to="/about">
+            <NavLink className="black-text" to="/about">
               About
             </NavLink>
           </li>

@@ -11,11 +11,12 @@ class Todo extends Component {
     let todoItem = filteredItems.map(todo => {
       return (
         <div className="container" key={todo.id}>
-          <ul>
-            <li className="list-item">
+          <ul className="row">
+            <li className="list-item col s11">
               <h4 className="black-text">{todo.task}</h4>
             </li>
             <button
+              id="button"
               className="btn-floating black btn-small"
               onClick={() => {
                 deleteItem(todo.id);
