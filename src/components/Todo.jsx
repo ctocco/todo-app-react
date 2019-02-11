@@ -13,7 +13,7 @@ class Todo extends Component {
         <div className="container" key={todo.id}>
           <ul className="row">
             <li className="list-item col s11">
-              <h4 className="black-text">{todo.task}</h4>
+              <h5 className="black-text">{todo.task}</h5>
             </li>
             <button
               id="button"
