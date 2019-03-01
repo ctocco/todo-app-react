@@ -24,9 +24,6 @@ const Navbar = props => {
               About
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li> */}
         </ul>
       </div>
     </nav>

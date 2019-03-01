@@ -6,7 +6,6 @@ class Todo extends Component {
     let filteredItems = todos.filter(item => {
       return item.task.toLowerCase().indexOf(search.toLowerCase()) >= 0;
     });
-    console.log(filteredItems);
 
     let todoItem = filteredItems.map(todo => {
       return (

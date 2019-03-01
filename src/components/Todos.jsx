@@ -36,7 +36,6 @@ class Todos extends Component {
     let complete = this.state.todos.filter(todo => {
       return todo.id === id;
     });
-    console.log(complete);
     this.setState({
       todos: todos
     });
@@ -55,7 +54,6 @@ class Todos extends Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <div className="container cont-main">
         <label htmlFor="first_name" className="search">
@@ -64,7 +62,7 @@ class Todos extends Component {
         <input
           id="last_name"
           type="text"
-          class="validate"
+          className="validate"
           value={this.state.search}
           onChange={this.handleUpdate}
         />

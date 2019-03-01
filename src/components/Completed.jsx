@@ -1,7 +1,6 @@
 import React from "react";
 
 const Completed = props => {
-  console.log(props);
   let completedItems = props.completed.map(complete => {
     return (
       <div className="container" key={complete.id}>
