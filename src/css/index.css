@@ -1,17 +1,21 @@
-body {
+html {
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background-color: seashell;
 }
 
 h1,
 h2,
 h3 {
-  color: #c0b283;
+  color: #6d7993;
 }
 
 ul {
-  color: #373737 !important;
+  color: #96858f !important;
+}
+
+li {
+  color: #96858f !important;
 }
 
 #button {
