@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import image from "../img/todo.jpg";
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
               <h1>Welcome!</h1>
             </div>
             <p>Please click on the link below to go to go to your Todo list</p>
-            <div class="card-action center waves-effect">
+            <div className="card-action center waves-effect">
               <NavLink id="todo-nav" to="/todos">
                 Todo
               </NavLink>
