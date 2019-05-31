@@ -1,7 +1,6 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: seashell;
 }
 
 h1,
@@ -18,10 +17,6 @@ li {
   color: #96858f !important;
 }
 
-#button {
-  margin-top: 30px;
-}
-
 #header {
   margin-top: 90px;
 }
@@ -31,4 +26,16 @@ li {
 }
 .border {
   margin-left: 30px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }

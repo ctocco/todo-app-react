@@ -9,20 +9,22 @@ class Todo extends Component {
 
     let todoItem = filteredItems.map(todo => {
       return (
-        <div className="container" key={todo.id}>
+        <div className="container collection" key={todo.id}>
           <ul className="row">
-            <li className="list-item col s11">
-              <h5 className="black-text">{todo.task}</h5>
+            <li className="list-item col">
+              <h5 className="black-text collection-item">
+                {todo.task}
+                <span
+                  id="button"
+                  className="btn-floating black btn-small"
+                  onClick={() => {
+                    deleteItem(todo.id);
+                  }}
+                >
+                  <i className="material-icons">check</i>
+                </span>
+              </h5>
             </li>
-            <button
-              id="button"
-              className="btn-floating black btn-small"
-              onClick={() => {
-                deleteItem(todo.id);
-              }}
-            >
-              <i className="material-icons">check</i>
-            </button>
           </ul>
         </div>
       );
