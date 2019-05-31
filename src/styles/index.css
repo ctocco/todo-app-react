@@ -21,20 +21,20 @@ h5 {
   padding-top: 1rem;
 }
 
-ul {
-  /* color: #96858f !important; */
-}
-
-li {
-  /* color: #96858f !important; */
-}
-
 #header {
   margin-top: 90px;
 }
 
 #about-title {
   padding-top: 20px;
+}
+
+.todo-homepage-link {
+  padding-bottom: 1.5rem;
+}
+
+.card-title {
+  padding-top: 1rem;
 }
 
 .todo-container {
