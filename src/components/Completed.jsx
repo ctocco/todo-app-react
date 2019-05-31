@@ -6,7 +6,7 @@ const Completed = props => {
       <div className="container collection" key={complete.id}>
         <ul className="row">
           <li className="list-item col ">
-            <h5 className="black-text collection-item">
+            <h5 className="black-text collection-item completed-text">
               {complete.task}
               <span
                 id="button"

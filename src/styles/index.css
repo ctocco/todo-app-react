@@ -3,6 +3,14 @@ html {
   padding: 0;
 }
 
+body {
+  background: url(../img/todo.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -14,11 +22,11 @@ h5 {
 }
 
 ul {
-  color: #96858f !important;
+  /* color: #96858f !important; */
 }
 
 li {
-  color: #96858f !important;
+  /* color: #96858f !important; */
 }
 
 #header {
@@ -27,6 +35,15 @@ li {
 
 #about-title {
   padding-top: 20px;
+}
+
+.todo-container {
+  background: white;
+  border-radius: 3px;
+  min-height: 400px;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  filter: drop-shadow(6px 6px 6px rgba(223, 230, 233, 1));
 }
 .border {
   margin-left: 30px;
@@ -45,6 +62,14 @@ li {
   align-items: center;
 }
 
+.completed-title {
+  padding-bottom: 1rem;
+}
+
 .completed-li {
   margin-bottom: 5rem;
+}
+
+.completed-text {
+  text-decoration: line-through;
 }

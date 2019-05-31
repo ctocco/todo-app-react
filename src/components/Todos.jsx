@@ -8,8 +8,7 @@ class Todos extends Component {
   state = {
     todos: [
       { id: 1, task: "feed the cat" },
-      { id: 2, task: "phone mum" },
-      { id: 3, task: "study study study" }
+      { id: 3, task: "study javascript" }
     ],
     completed: [],
     search: ""
@@ -66,22 +65,24 @@ class Todos extends Component {
           value={this.state.search}
           onChange={this.handleUpdate}
         />
-        <h2 className="center-align">Todo List</h2>
-        <AddItem addItem={this.addItem} />
-        <Todo
-          todos={this.state.todos}
-          search={this.state.search}
-          deleteItem={this.deleteItem}
-        />
-        <br />
-        <h3 className="center-align">Completed tasks</h3>
-        <div className="completed-li">
-          <Completed
-            completed={this.state.completed}
-            todo={this.state.todo}
-            deleteCompleted={this.deleteCompleted}
+        <section className="todo-container">
+          <h2 className="center-align">Todo List</h2>
+          <AddItem addItem={this.addItem} />
+          <Todo
+            todos={this.state.todos}
+            search={this.state.search}
+            deleteItem={this.deleteItem}
           />
-        </div>
+          <br />
+          <h3 className="center-align completed-title">Completed tasks</h3>
+          <div className="completed-li">
+            <Completed
+              completed={this.state.completed}
+              todo={this.state.todo}
+              deleteCompleted={this.deleteCompleted}
+            />
+          </div>
+        </section>
       </div>
     );
   }
