@@ -24,11 +24,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// const background = {
-//   backgroundImage: `url(require(image))`,
-//   backgroundSize: "cover",
-//   height: "100%",
-//   overflow: "hidden",
-//   backgroundColor: "aliceblue"
-// };
