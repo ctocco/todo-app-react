@@ -75,11 +75,13 @@ class Todos extends Component {
         />
         <br />
         <h3 className="center-align">Completed tasks</h3>
-        <Completed
-          completed={this.state.completed}
-          todo={this.state.todo}
-          deleteCompleted={this.deleteCompleted}
-        />
+        <div className="completed-li">
+          <Completed
+            completed={this.state.completed}
+            todo={this.state.todo}
+            deleteCompleted={this.deleteCompleted}
+          />
+        </div>
       </div>
     );
   }

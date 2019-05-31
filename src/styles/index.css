@@ -9,6 +9,10 @@ h3 {
   color: #6d7993;
 }
 
+h5 {
+  padding-top: 1rem;
+}
+
 ul {
   color: #96858f !important;
 }
@@ -38,4 +42,9 @@ li {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+}
+
+.completed-li {
+  margin-bottom: 5rem;
 }
