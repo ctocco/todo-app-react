@@ -10,6 +10,9 @@
             }
         }
     ],
+    "regions": [
+        "all"
+    ],
     "routes": [
         {
             "src": "/static/(.*)",

@@ -2,7 +2,6 @@
   "version": "0.1.0",
   "name": "todo-app",
   "private": true,
-  "homepage": "http://ctocco.github.io/todo-app-react",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
