@@ -1,6 +1,6 @@
 {
-  "name": "todo-app-react",
   "version": "0.1.0",
+  "name": "todo-app",
   "private": true,
   "homepage": "http://ctocco.github.io/todo-app-react",
   "dependencies": {
@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "now-build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
