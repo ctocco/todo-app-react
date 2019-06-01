@@ -10,7 +10,7 @@ const Home = () => {
             <div className="card-title">
               <h1>Welcome!</h1>
             </div>
-            <p>Please click on the link below to go to go to your Todo list</p>
+            <p>Please click on the link below to go to your Todo list</p>
             <div className="center todo-homepage-link">
               <NavLink id="todo-nav" to="/todos">
                 <h5>Todo</h5>
